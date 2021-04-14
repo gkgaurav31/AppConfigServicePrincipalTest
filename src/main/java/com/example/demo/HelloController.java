@@ -20,7 +20,7 @@ public class HelloController {
 	@GetMapping("/test")
 	public String hello() {
 
-		String endpoint = "https://gaukappconfig.azconfig.io";
+		String endpoint = "https://<appconfigname>.azconfig.io";
 
 		DefaultAzureCredential tokenCredential = new DefaultAzureCredentialBuilder().build();
 
